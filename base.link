@@ -1,0 +1,13 @@
+
+deck @drumwork/note
+  head <History/Event library in Link Script>
+  make <information>
+  make <computation>
+  make <library>
+  host <Lance Pollard>
+  mail <lp@elk.fm>
+  link ./link
+  hook ./hook
+  read ./read
+  view ./view/house.gif
+  term <Apache 2.0>

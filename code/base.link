@@ -1,0 +1,117 @@
+
+note planck-epoch
+  bind time, mark 0
+  bind date
+    bind mark, mark 13.799
+    bind rank, term gya
+    bind diff, mark 0.021
+
+note grand-unification-epoch
+  bind time
+    bind mark, mark 10, rise -43
+    bind rank, term second
+
+note electroweak-epoch
+  bind time
+    bind mark, mark 10, rise -36
+    bind rank, term second
+
+  note cool-universe
+    bind call, term cool
+    bind form, term universe
+    bind site
+      bind mark, mark 10, rise 28
+      bind rank, term kelvin
+
+note space-inflation
+  bind time
+    bind mark, mark 10, rise -33
+    bind rank, term second
+  bind halt
+    bind mark, mark 10, rise -32
+    bind rank, term second
+
+  hook halt
+    note quark–gluon-plasma-exists
+
+note electroweak-phase-transition
+  bind time
+    bind mark, mark 10, rise -12
+    bind rank, term second
+
+note baryogensis
+  bind time
+    bind mark, mark 10, rise -11
+    bind rank, term second
+
+note hadron-epoch
+  bind time
+    bind mark, mark 10, rise -6
+    bind rank, term second
+
+  note cool-universe
+    bind call, term cool
+    bind form, term universe
+    bind site
+      bind mark, mark 10, rise 10
+      bind rank, term kelvin
+
+note lepton-epoch
+  bind time
+    bind mark, mark 1
+    bind rank, term second
+
+note photon-epoch
+  bind time
+    bind mark, mark 10
+    bind rank, term second
+
+note universe-dominated-by-photons-of-radiation
+  bind time
+    bind mark, mark 10
+    bind rank, term second
+
+note primordial-nucleosynthesis
+  bind base
+    make time
+      bind mark, mark 3
+      bind rank, term minute
+  bind halt
+    make time
+      bind mark, mark 20
+      bind rank, term minute
+
+note matter-and-radiation-equivalence
+  bind base
+    make time
+      bind mark, mark 47-000
+      bind rank, term year
+
+note matter-domination-in-universe
+  bind base
+    make time
+      bind mark, mark 70-000
+      bind rank, term year
+
+note dark-ages
+  bind base
+    make time
+      bind mark, mark 370-000
+      bind rank, term year
+
+note density-polarization-signals
+  bind base
+    make time
+      bind mark, mark 400-000
+      bind rank, term year
+
+note dark-ages-cooling
+  bind base
+    bind base
+      make time
+        bind mark, mark 10-000-000
+        bind rank, term year
+    bind head
+      make time
+        bind mark, mark 17-000-000
+        bind rank, term year
